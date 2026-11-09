@@ -1,9 +1,34 @@
-# Darwin’s Dinos handoff
+# Current development handoff
 
-2026-11-09 — Middletown discovery, approved backup preparation.
+Reviewed: 2026-11-09 — Middletown MacBook.
 
-Existing public repository main points to 2928865baf8fbcd35b47bb3e77fbb56eebc106b6 and contains README.md only. It describes an educational STEM game. No Unity source/project was found in the searched local directories. A README-only repository is not a complete application-source backup.
+## Current state
 
-Locate Unity/Plastic SCM project files on the DC Mac or other storage. Do not invent setup instructions, completed implementation, tests or architecture from the repository name.
+The approved source/context backup is on https://github.com/leofari/darwins-dinos (public). Start from `main`; fetch all remote branches before comparing with another Mac. Initial verified main before this documentation refresh: `8705a5eae64b17bd18fbbe1d8fde311f64fc2aff`. Current commit: inspect `git rev-parse HEAD`.
 
-No application tests run. Record actual branch/commit, changes, test results, issues and next steps here after development.
+Documented educational game project; application source was not found locally.
+
+## Completed in this backup
+
+- Preserved existing history and meaningful alternate versions without force-pushing or deleting branches.
+- Added project context, source provenance and an additive AGENTS.md handoff-maintenance instruction.
+- Kept Codex transcripts, credentials and private runtime data out of the upload.
+- Verified source manifests and remote commit identities; application behavior was not newly regression-tested.
+
+## Alternate versions
+
+- No additional source archive branch was needed.
+
+## Next concrete step
+
+Locate the actual game source on the DC Mac or Unity/Plastic SCM storage.
+
+## Constraints
+
+Do not import private account data or chat transcripts. Existing historical files were retained; no unrelated history was copied to another repository.
+
+Original source working trees were not edited by the backup. Do not assume a working deployment or reproduce a private-data environment from the source snapshot alone.
+
+## Update after development
+
+Replace this current-state note with actual branch/commit, changes, checks and results, known issues, uncommitted work, decisions and next steps. Update PROJECT_CONTEXT.md when setup or architecture changes. State what remains unverified. Do not commit chat logs, credentials or unrelated personal data.
