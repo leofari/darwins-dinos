@@ -16,8 +16,3 @@ My project proposal was selected from 20 course proposals and developed by a fiv
 
 ## Tools / Skills
 Unity, project management, stakeholder presentations, art and music creation, interdisciplinary collaboration, user research
-
-
-## AI and session handoff
-
-Read [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md), [HANDOFF.md](HANDOFF.md) and [AGENTS.md](AGENTS.md) before development. Update the handoff after each meaningful development session and the context after architecture/setup changes. See [BACKUP_PROVENANCE.md](BACKUP_PROVENANCE.md) for preserved versions and device provenance. Never add conversation transcripts or credentials.
